@@ -13,9 +13,9 @@ tmpl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 app = Flask(__name__, template_folder=tmpl_dir)
 
 # Modify these with your own credentials you received from TA!
-DATABASE_USERNAME = "tc3233"
-DATABASE_PASSWRD = "3127"
-DATABASE_HOST = "34.148.107.47" # change to 34.28.53.86 if you used database 2 for part 2
+DATABASE_USERNAME = "xxxx"
+DATABASE_PASSWRD = "xxxx"
+DATABASE_HOST = "xx.xx.xx.xx" #
 DATABASEURI = f"postgresql://{DATABASE_USERNAME}:{DATABASE_PASSWRD}@{DATABASE_HOST}/project1"
 
 #
